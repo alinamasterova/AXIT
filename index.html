@@ -7,30 +7,20 @@
         <title>firstproject</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
     </head>
-    <body>      
-        <main class="main"> 
-            <header class="head">
+    <body>   
+        <header class="head">
             <img class="head__logo" src="img/logo1.png" alt="">
-            <nav class="head__menu">
-                <button class="head__menu__link">
+            <nav class="head__menu">               
                     <a href="#">Features</a>
-                </button>
-                <button class="head__menu__link">
                     <a href="#">About</a>
-                </button>
-                <button class="head__menu__link">
                     <a href="#">Pricing</a>
-                </button>
-                <button class="head__menu__link">
                     <a href="#">Reviews</a>
-                </button>
-                <button class="head__menu__link">
                     <a href="#">Contact</a>
-                </button>
             </nav>
-        </header>
+        </header>   
+        <main class="main"> 
             <div class="container container_main">
                 <div class="main__content">
                     <div class="main__content__logo">
@@ -41,11 +31,17 @@
                     PROTOTYPES</h1>
                 <hr class="main__line">
                 <p class="main__text">Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit</span></p>
-                <button class="banner__btn">
-                    <a class="banner__btn__download" href="#">Download</a>
-                </button>
+                <a class="main__link" href="#">Download</a>
                 </div>
-                <div class="main__form"></div>
+                <form class="main__form">               
+                    <legend>TRY YOUR <em>FREE </em>TRIAL TODAY</legend>
+                        <fieldset class="main__form__free">
+                            <input type="text" placeholder="Name">                      
+                            <input type="email" placeholder="Email">                
+                            <input type="password" placeholder="Password">
+                            <input type="submit" value="Get Started">
+                        </fieldset>
+                </form>
             </div>
         </main>
         <section class="social">
@@ -55,28 +51,28 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         <span>Aenean euismod bibendum laoreet.</span></p>
                 </div>
-                <div class="icons">
-                    <button class="icons__btn">
+                <div class="social__icons">
+                    <a href="#" class="social__icons">
                         <img src="img/facebook_icon.svg" alt="f">
-                    </button>
-                    <button class="icons__btn">
+                    </a>
+                    <a href="#" alt="social__icon">
                         <img src="img/twitter_icon.svg" alt="t">
-                    </button>
-                    <button class="icons__btn">
+                    </a>
+                    <a href="#" alt="social__icon">
                         <img src="img/linkedin_icon.svg" alt="l">
-                    </button>
-                    <button class="icons__btn">
+                    </a>
+                    <a href="#" alt="social__icon">
                         <img src="img/pinterest_icon.svg" alt="p">
-                    </button>
-                    <button class="icons__btn">
+                    </a>
+                    <a href="#" alt="social__icon">
                         <img src="img/instagram_icon.svg" alt="i">
-                    </button>
-                    <button class="icons__btn">
+                    </a>
+                    <a href="#" alt="social__icon">
                         <img src="img/github_icon.svg" alt="g">
-                    </button>
-                    <button class="icons__btn">
+                    </a>
+                    <a href="#" alt="social__icon">
                         <img src="img/rss_icon.svg" alt="r">
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -228,13 +224,11 @@
         </section>
 
         <section class="banner">
-                <div class="header header__banner">
-                    <h2 class="header__title header__banner_color">STYLISH AXURE DESIGN</h2>
-                    <hr class="header__line header__banner_line"/>
-                    <p class="header__text header__banner_color">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>               
-                    <button class="banner__btn">
-                        <a class="banner__btn__download" href="#">Download</a>
-                    </button>
+                <div class="header header_white">
+                    <h2 class="header__title">STYLISH AXURE DESIGN</h2>
+                    <hr class="header__line"/>
+                    <p class="header__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>               
+                    <a class="main__link main__link_banner" href="#">Download</a>
                 </div>
         </section>
         <section class="contact">
@@ -244,31 +238,44 @@
                     <hr class="header__line"/>
                     <div class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                 </div>
-                </div>
+                <form class="contact__form">               
+                        <fieldset class="contact__form__message">
+                            <div class="contact__form__user"> 
+                                <input type="text" placeholder="Name">                      
+                                <input type="email" placeholder="Email">                
+                                <input type="password" placeholder="Password"> 
+                            </div>
+                            <div class="contact__form__comment">
+                                <textarea name="comment" placeholder="Message"></textarea>
+                            </div>
+                        </fieldset>    
+                            <input type="submit" value="Send Message">                     
+                </form>
+            </div>
         </section>
         <footer class="footer">
-            <div class="icons icons_footer">
-                <button class="icons__btn ">
+            <div class="footer__icons">
+                <a href="#" alt="footer__icon">
                     <img src="img/facebook_icon_footer.svg" alt="а">
-                </button>
-                <button class="icons__btn">
+                </a>
+                <a href="#" alt="footer__icon">
                     <img src="img/twitter_icon_footer.svg" alt="t">
-                </button>
-                <button class="icons__btn">
+                </a>
+                <a href="#" alt="footer__icon">
                     <img src="img/linkedin_icon_footer.svg" alt="l">
-                </button>
-                <button class="icons__btn">
+                </a>
+                <a href="#" alt="footer__icon">
                     <img src="img/pinterest_icon_footer.svg" alt="p">
-                </button>
-                <button class="icons__btn">
+                </a>
+                <a href="#" alt="footer__icon">
                     <img src="img/instagram_icon_footer.svg" alt="i">
-                </button>
-                <button class="icons__btn">
+                </a>
+                <a href="#" alt="footer__icon">
                     <img src="img/github_icon_footer.svg" alt="g">
-                </button>
-                <button class="icons__btn">
+                </a>
+                <a href="#" alt="footer__icon">
                     <img src="img/rss_icon_footer.svg" alt="r">
-                </button>
+                </a>
             </div>
             <p class="footer__text">© <time>2015</time> Axure Themes</p>
         </footer>
