@@ -5,51 +5,47 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="vieport" content="width=device-width, initial-scale=1.0"/>
         <title>firstproject</title>
-        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/zeroing.css">
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
     </head>
     <body>   
-        <header class="head">
-            <img class="head__logo" src="img/logo1.png" alt="">
-            <nav class="head__menu">               
-                    <a href="#">Features</a>
-                    <a href="#">About</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Reviews</a>
-                    <a href="#">Contact</a>
-            </nav>
+        <header class="header">
+            <div class="container">
+                    <img class="header__logo"src="img/logo1.png" alt="">
+                <nav class="header__menu">               
+                    <a href="#features">Features</a>
+                    <a href="#about">About</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
         </header>   
         <main class="main"> 
-            <div class="container container_main">
+            <div class="container">
                 <div class="main__content">
-                    <div class="main__content__logo">
-                        <img src="img/logo2.png" alt="">
-                    </div>
-                <h1 class="main__title">MODERN AXURE TEMPLATE
-                    <span>FOR BEAUTIFUL</span> 
-                    PROTOTYPES</h1>
-                <hr class="main__line">
-                <p class="main__text">Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit</span></p>
-                <a class="main__link" href="#">Download</a>
+                    <img class="main__content__logo"src="img/logo2.png" alt="">    
+                    <h1 class="main__content__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                    <hr class="main__line">
+                    <p class="main__content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <a class="download" href="#">Download</a>
                 </div>
                 <form class="main__form">               
-                    <legend>TRY YOUR <em>FREE </em>TRIAL TODAY</legend>
-                        <fieldset class="main__form__free">
-                            <input type="text" placeholder="Name">                      
-                            <input type="email" placeholder="Email">                
-                            <input type="password" placeholder="Password">
-                            <input type="submit" value="Get Started">
-                        </fieldset>
+                    <h4>TRY YOUR <span>FREE </span>TRIAL TODAY</h4>                    
+                    <input type="text" placeholder="Name">                      
+                    <input type="email" placeholder="Email">                
+                    <input type="password" placeholder="Password">
+                    <input type="submit" value="Get Started">
                 </form>
             </div>
         </main>
         <section class="social">
-            <div class="container container_media">
+            <div class="container">
                 <div class="social__media">
-                    <p>Social Media</p>
+                    <h4>Social Media</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        <span>Aenean euismod bibendum laoreet.</span></p>
+                        Aenean euismod bibendum laoreet.</p>
                 </div>
                 <div class="social__icons">
                     <a href="#" class="social__icons">
@@ -76,145 +72,142 @@
                 </div>
             </div>
         </section>
-        <section class="awesome">
+
+        <section class="tabs" id="features"> 
             <div class="container">
-                <div class="header">
-                    <h2 class="header__title">WHY THIS IS AWESOME</h2>
-                    <hr class="header__line"/>
-                    <div class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+
+            </div>
+        </section>
+        
+        <section class="awesome" id="about">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="heading__title">WHY THIS IS AWESOME</h2>
+                    <hr class="heading__line">
+                    <div class="heading__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                 </div> 
                <div class="awesome__content">
                     <div class="awesome__reasons">
-                        <div class="awesome__reasons__icon">
-                            <img src="img/icon1.svg" alt="icon1">
-                        </div>
-                        <p class="awesome__reasons__title">Thoughtful Design</p>
-                        <p class="awesome__reasons__text">Lorem ipsum dolor sit amet, consectetur <span>adipiscing</span> <span>elit. Aenean euismod bibendum laoreet.</span><span>Proin gravida  dolor sit amet lacus</span>accumsan et viverra.</p>
+                        <img src="img/icon1.svg" alt="icon1">
+                        <h4>Thoughtful Design</h4>
+                        <p class="awesome__reasons__text">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                     <div class="awesome__reasons">
-                        <div class="awesome__reasons__icon">
-                            <img src="img/icon2.svg" alt="icon1">
-                        </div>
-                        <p class="awesome__reasons__title">Thoughtful Design</p>
-                        <p class="awesome__reasons__text">Lorem ipsum dolor sit amet, consectetur <span>adipiscing</span> <span>elit. Aenean euismod bibendum laoreet.</span><span>Proin gravida  dolor sit amet lacus</span>accumsan et viverra.</p>
-                    </div>
+                        <img src="img/icon2.svg" alt="icon1">
+                        <h4>Thoughtful Design</h4>
+                        <p class="awesome__reasons__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                         </div>
                     <div class="awesome__reasons">
-                        <div class="awesome__reasons__icon">
-                            <img src="img/icon3.svg" alt="icon1">
-                        </div>
-                        <p class="awesome__reasons__title">Thoughtful Design</p>
-                        <p class="awesome__reasons__text">Lorem ipsum dolor sit amet, consectetur <span>adipiscing</span> <span>elit. Aenean euismod bibendum laoreet.</span><span>Proin gravida  dolor sit amet lacus</span>accumsan et viverra.</p>
-                    </div>
+                        <img src="img/icon3.svg" alt="icon1">
+                        <h4>Thoughtful Design</h4>
+                        <p class="awesome__reasons__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
+                         </div>
                 </div>                
             </div>
         </section>
 
-        <section class="options">
+        <section class="options" id="pricing">
             <div class="container">
-                <div class="header">
-                    <h2 class="header__title">PRICING OPTIONS</h2>
-                    <hr class="header__line"/>
-                    <div class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="heading">
+                    <h2 class="heading__title">PRICING OPTIONS</h2>
+                    <hr class="heading__line">
+                    <div class="heading__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                 </div>
                 <div class="options__offer">
-                    <div class="options__offer__price">
-                        <ul class="options__offer__pack">
-                            <li>Basic</li>
-                            <li>$10</li>                      
-                            <li>Free for life</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                        </ul>
-                    </div>
-                    <div class="options__offer__price options__offer__price_middle">
-                        <ul class="options__offer__pack">
-                            <li>Optima</li>
-                            <li>$20</li>                      
-                            <li>Free for life</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                        </ul>
-                    </div>
-                    <div class="options__offer__price">
-                        <ul class="options__offer__pack">
-                            <li>Pro</li>
-                            <li>$30</li>                      
-                            <li>Free for life</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                            <li>1 gb of space</li>
-                        </ul>
-                    </div>                   
+                    <ul class="options__offer__pack">
+                        <li>Basic</li>
+                        <li>$10</li>                      
+                        <li>Free for life</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                    </ul>
+                    <ul class="options__offer__pack options__offer__pack_middle">
+                        <li>Optima</li>
+                        <li>$20</li>                      
+                        <li>Free for life</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                    </ul>
+                    <ul class="options__offer__pack">
+                        <li>Pro</li>
+                        <li>$30</li>                      
+                        <li>Free for life</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                        <li>1 gb of space</li>
+                    </ul>          
                 </div>
             </div>
         </section>
 
-        <section class="customers">
+        <section class="customers" id="reviews">
             <div class="container">
-                <div class="header">
-                    <h2 class="header__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
-                    <hr class="header__line"/>
-                    <div class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="heading">
+                    <h2 class="heading__title">WHAT OUR CUSTOMERS ARE SAYING</h2>
+                    <hr class="heading__line"/>
+                    <div class="heading__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                 </div>
                 <div class="customers__reviews">
                     <div class="customers__reviews__item">
-                        <div class="customers__item__comment">Lorem ipsum dolor sit amet, 
-                            <span>consectetur adipisicing elit. Doloribus </span>
-                            <span>accusamus expedita repellat similique </span>
-                            <span>odio aspernatur ex, architecto eaque</span> 
-                            <span>quo suscipit.</span>
-                        </div>
+                        <p class="customers__item__comment">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </p>
                         <div class="customers__item__people">
                             <div class="customers__people__photo">
                                 <img src="img/photo1.png" alt="photo1">
                             </div>
                             <div class="customers__people__who">
-                                <p>Davis Rhiel Madsen</p>
+                                <h4>Davis Rhiel Madsen</h4>
                                 <p>Manager</p>
                             </div>
                         </div>              
                     </div>
                     <div class="customers__reviews__item">
-                        <div class="customers__item__comment">Lorem ipsum dolor sit amet, 
-                            <span>consectetur adipisicing elit. Doloribus </span>
-                            <span>accusamus expedita repellat similique </span>
-                            <span>odio aspernatur ex, architecto eaque</span> 
-                            <span>quo suscipit.</span>
-                        </div>
+                        <p class="customers__item__comment">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </p>
                         <div class="customers__item__people">
                             <div class="customers__people__photo">
                                 <img src="img/photo2.png" alt="photo1">
                             </div>
                             <div class="customers__people__who">
-                                <p>Jaydon Rosser</p>
+                                <h4>Jaydon Rosser</h4>
                                 <p>Manager</p>
                             </div>
                         </div>              
                     </div>
                     <div class="customers__reviews__item">
-                        <div class="customers__item__comment">Lorem ipsum dolor sit amet, 
-                            <span>consectetur adipisicing elit. Doloribus </span>
-                            <span>accusamus expedita repellat similique </span>
-                            <span>odio aspernatur ex, architecto eaque</span> 
-                            <span>quo suscipit.</span>
-                        </div>
+                        <p class="customers__item__comment">Lorem ipsum dolor sit amet, 
+                            consectetur adipisicing elit. Doloribus 
+                            accusamus expedita repellat similique 
+                            odio aspernatur ex, architecto eaque 
+                            quo suscipit.
+                        </p>
                         <div class="customers__item__people">
                             <div class="customers__people__photo">
                                 <img src="img/photo3.png" alt="photo1">
                             </div>
                             <div class="customers__people__who">
-                                <p>Cooper Dorwart</p>
+                                <h4>Cooper Dorwart</h4>
                                 <p>Manager</p>
                             </div>
                         </div>              
@@ -224,60 +217,62 @@
         </section>
 
         <section class="banner">
-                <div class="header header_white">
-                    <h2 class="header__title">STYLISH AXURE DESIGN</h2>
-                    <hr class="header__line"/>
-                    <p class="header__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>               
-                    <a class="main__link main__link_banner" href="#">Download</a>
+                <div class="heading heading_white">
+                    <h2 class="heading__banner">STYLISH AXURE DESIGN</h2>
+                    <hr class="heading__line">
+                    <p class="heading__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
                 </div>
+                <a class="download download_banner" href="#">Download</a>
         </section>
-        <section class="contact">
+
+        <section class="contact" id="contact">
             <div class="container">
-                <div class="header">
-                    <h2 class="header__title">CONTACT US</h2>
-                    <hr class="header__line"/>
-                    <div class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                <div class="heading">
+                    <h2 class="heading__title">CONTACT US</h2>
+                    <hr class="heading__line"/>
+                    <div class="heading__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                 </div>
-                <form class="contact__form">               
-                        <fieldset class="contact__form__message">
-                            <div class="contact__form__user"> 
-                                <input type="text" placeholder="Name">                      
-                                <input type="email" placeholder="Email">                
-                                <input type="password" placeholder="Password"> 
-                            </div>
-                            <div class="contact__form__comment">
-                                <textarea name="comment" placeholder="Message"></textarea>
-                            </div>
-                        </fieldset>    
-                            <input type="submit" value="Send Message">                     
+                <form class="contact__form"> 
+                    <div class="contact__form__field">              
+                        <div class="contact__form__user"> 
+                            <input type="text" placeholder="Name">                      
+                            <input type="email" placeholder="Email">                
+                            <input type="password" placeholder="Password"> 
+                        </div>
+                        <textarea name="comment" placeholder="Message"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message">                     
                 </form>
             </div>
         </section>
+
         <footer class="footer">
-            <div class="footer__icons">
-                <a href="#" alt="footer__icon">
-                    <img src="img/facebook_icon_footer.svg" alt="а">
-                </a>
-                <a href="#" alt="footer__icon">
-                    <img src="img/twitter_icon_footer.svg" alt="t">
-                </a>
-                <a href="#" alt="footer__icon">
-                    <img src="img/linkedin_icon_footer.svg" alt="l">
-                </a>
-                <a href="#" alt="footer__icon">
-                    <img src="img/pinterest_icon_footer.svg" alt="p">
-                </a>
-                <a href="#" alt="footer__icon">
-                    <img src="img/instagram_icon_footer.svg" alt="i">
-                </a>
-                <a href="#" alt="footer__icon">
-                    <img src="img/github_icon_footer.svg" alt="g">
-                </a>
-                <a href="#" alt="footer__icon">
-                    <img src="img/rss_icon_footer.svg" alt="r">
-                </a>
+            <div class="container">
+                <div class="footer__icons">
+                    <a href="#" alt="footer__icon">
+                        <img src="img/facebook_icon_footer.svg" alt="а">
+                    </a>
+                    <a href="#" alt="footer__icon">
+                        <img src="img/twitter_icon_footer.svg" alt="t">
+                    </a>
+                     <a href="#" alt="footer__icon">
+                        <img src="img/linkedin_icon_footer.svg" alt="l">
+                     </a>
+                    <a href="#" alt="footer__icon">
+                        <img src="img/pinterest_icon_footer.svg" alt="p">
+                    </a>
+                    <a href="#" alt="footer__icon">
+                        <img src="img/instagram_icon_footer.svg" alt="i">
+                    </a>
+                    <a href="#" alt="footer__icon">
+                        <img src="img/github_icon_footer.svg" alt="g">
+                    </a>
+                    <a href="#" alt="footer__icon">
+                        <img src="img/rss_icon_footer.svg" alt="r">
+                    </a>
+                </div>
+                <p class="footer__text">© 2015 Axure Themes</p>
             </div>
-            <p class="footer__text">© <time>2015</time> Axure Themes</p>
         </footer>
         
     </body>
