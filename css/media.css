@@ -95,16 +95,9 @@
         height: 64px;
     }
 
-    .tabs__content {
-        /* column-gap: 26px; */
-    }
-
-    .tabs__features {
-        margin-left: 83px;
-    }
-
-    .tabs__features {
+    .tabs__features {     
         width: 482.89px;
+        padding-left: 83px;
     }
 
     .tabs__features__title {
@@ -285,7 +278,7 @@
     }
 
     .tabs__features {
-        margin-left: 50px;
+        padding-left: 50px;
     }
 
     .tabs__features__title {
@@ -508,7 +501,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin-left: 0px;
+        padding-left: 0px;
     }
 
     .tabs__features__title {

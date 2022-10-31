@@ -246,7 +246,7 @@ input[type="submit"]:active {
 }
 
 .tabs__features {
-    margin-left: 100px;
+    padding-left: 100px;
 }
 
 .tabs__features__title {
