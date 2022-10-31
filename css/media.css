@@ -73,10 +73,6 @@
         width: 298px;
     }
 
-    .social {
-        margin-bottom: 50px;
-    }
-
     .social__media h4 {
         padding: 10px 0;
     }
@@ -95,36 +91,9 @@
         height: 64px;
     }
 
-    .tabs__features {     
-        width: 482.89px;
-        padding-left: 83px;
-    }
-
-    .tabs__features__title {
-        font-size: 24px;
-        line-height: 33px;
-        padding: 28px 0;
-    }
-
-    .tabs__features__text {
-        font-size: 12px;
-        line-height: 14px;
-        margin: 38px 0;
-    }
-
-    .tabs .download {
-        width: 232px;
-        margin-bottom: 50px;
-    }
-
-    .tabs__features__img{
-        width: 398px;
-        height: 385px;
-    }
-
     .tabs label {
         width: 156px;
-        margin-bottom: 385px;  
+        margin: 50px 0 385px;  
     }
 
     #tab1:checked ~ label:first-of-type {
@@ -137,6 +106,35 @@
 
     #tab3:checked ~ label:first-of-type {
         width: 172px;
+    }
+
+    .tabs__content {
+        padding-left: 83px;
+        top: 88px;
+        right: 15px;
+    }
+
+    .tabs__features__title {
+        width: 483px;
+        font-size: 24px;
+        line-height: 33px;
+        padding: 28px 0;
+    }
+
+    .tabs__features__text {
+        width: 483px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 38px 26px 38px 0;
+    }
+
+    .tabs .download {
+        width: 232px;
+    }
+
+    .tabs__features__img{
+        width: 398px;
+        height: 385px;
     }
 
     .heading__title {
@@ -247,7 +245,6 @@
     .footer__text {  
         margin-top: 38px;
     }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -277,8 +274,25 @@
         height: 50px;
     }
 
-    .tabs__features {
-        padding-left: 50px;
+    .tabs label {
+        width: 118px;
+    }
+
+    #tab1:checked ~ label:first-of-type {
+        width: 142px;
+    }
+
+    #tab1:checked ~ label:nth-of-type(2) {
+        width: 142px;
+    }
+
+    #tab1:checked ~ label:last-of-type {
+        width: 142px;
+    }
+
+    .tabs__content {
+        padding-left: 30px;
+        right: 15px;
     }
 
     .tabs__features__title {
@@ -288,13 +302,12 @@
     }
 
     .tabs__features__text {
-        width: 250px;
-        margin: 0 0 20px;
+        width: 300px;
+        margin: 20px 15px 20px 0;
     }
 
     .tabs .download {
         width: 200px;
-        margin-bottom: 40px;
     }
 
     .customers__people__who h4 {
@@ -304,7 +317,6 @@
     .customers__people__who p {
         font-size: 10px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -474,11 +486,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .social__media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
     }
 
     .social__media p {
         width: 93%;
+        align-items: center;
         margin-bottom: 32px;
     }
 
@@ -491,51 +510,11 @@
         height: 26px;
     }
 
-    .tabs__content {
-        width: 95%; 
-    }
-
-    .tabs__features {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding-left: 0px;
-    }
-
-    .tabs__features__title {
-        width: 243px;
-        font-size: 18px;
-        line-height: 25px;
-        padding: 37px 0;
-    }
-
-    .tabs__features__text {
-        width: 243px;
-        font-size: 13px;
-        line-height: 15px;
-        margin: 29px 0 20px 0;
-    }
-
-    .tabs__features__text span {
-        display: inline;
-    }
-
-    .tabs__features .download {
-        width: 243px;
-        padding: 10.5px 0;
-    }  
-    
-    .tabs__features__img{
-        display: none;
-    }
-
     .tabs label {
         flex-grow: 1;
-        margin-bottom: 442px;  
+        margin: 41px 0 470px;
     }
- 
+
     #tab1:checked ~ label:first-of-type {
         flex-grow: 1;
     }
@@ -548,6 +527,46 @@
         flex-grow: 1;
     } 
 
+    .tabs__content {
+        width: 95%;
+        text-align: center;
+        padding-left: 0px;
+        top: 79px;
+    }
+
+    .tabs__features__title {
+        width: 243px;
+        font-size: 18px;
+        line-height: 25px;
+        padding: 37px 0;
+        margin: 0 auto;
+    }
+
+    .tabs__features__text {
+        width: 243px;
+        font-size: 13px;
+        line-height: 15px;
+        margin: 29px auto 47px;
+    }
+
+    .tabs__features__text span {
+        display: inline;
+    }
+
+    .tabs__features .download {
+        width: 243px;
+        padding: 10.5px 0;
+        margin-bottom: 30px;
+    }  
+    
+    .tabs__features__img{
+        display: none;
+    }
+
+    .tabs__content > div {
+        margin: 0 auto;
+    }
+ 
     .heading {
         text-align: center;
         padding: 0;
