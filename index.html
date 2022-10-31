@@ -3,23 +3,30 @@
     <head>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-        <meta name="vieport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>firstproject</title>
-        <link rel="stylesheet" href="css/zeroing.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="./css/zeroing.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/media.css">
     </head>
     <body>   
         <header class="header">
             <div class="container">
-                    <img class="header__logo"src="img/logo1.png" alt="">
-                <nav class="header__menu">               
-                    <a href="#features">Features</a>
-                    <a href="#about">About</a>
-                    <a href="#pricing">Pricing</a>
-                    <a href="#reviews">Reviews</a>
-                    <a href="#contact">Contact</a>
-                </nav>
+                <img class="header__logo"src="img/logo1.png" alt="">
+                <div class="header__burger">
+                    <input type="checkbox" id="burger">
+                    <label for="burger">
+                        <span></span>
+                    </label>
+                    <nav class="header__menu">               
+                        <a href="#features">Features</a>
+                        <a href="#about">About</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#reviews">Reviews</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
+                </div>
             </div>
         </header>   
         <main class="main"> 
@@ -44,29 +51,29 @@
             <div class="container">
                 <div class="social__media">
                     <h4>Social Media</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
                         Aenean euismod bibendum laoreet.</p>
                 </div>
                 <div class="social__icons">
-                    <a href="#" class="social__icons">
+                    <a href="#">
                         <img src="img/facebook_icon.svg" alt="f">
                     </a>
-                    <a href="#" alt="social__icon">
+                    <a href="#">
                         <img src="img/twitter_icon.svg" alt="t">
                     </a>
-                    <a href="#" alt="social__icon">
+                    <a href="#">
                         <img src="img/linkedin_icon.svg" alt="l">
                     </a>
-                    <a href="#" alt="social__icon">
+                    <a href="#">
                         <img src="img/pinterest_icon.svg" alt="p">
                     </a>
-                    <a href="#" alt="social__icon">
+                    <a href="#">
                         <img src="img/instagram_icon.svg" alt="i">
                     </a>
-                    <a href="#" alt="social__icon">
+                    <a href="#">
                         <img src="img/github_icon.svg" alt="g">
                     </a>
-                    <a href="#" alt="social__icon">
+                    <a href="#">
                         <img src="img/rss_icon.svg" alt="r">
                     </a>
                 </div>
@@ -76,23 +83,23 @@
         <section class="tabs" id="features"> 
             <div class="container"> 
                 <input type="radio" name="tab" id="tab1" checked>
-                    <label for="tab1">TAB1</label>
+                <label for="tab1">TAB 1</label>
                 <input type="radio" name="tab" id="tab2">
-                    <label for="tab2">TAB2</label>
+                <label for="tab2">TAB 2</label>
                 <input type="radio" name="tab" id="tab3">
-                    <label for="tab3">TAB3</label>
+                <label for="tab3">TAB 3</label>
                 <div class="tabs__content tabs__content_1">      
                     <div class="tabs__features">
                         <p class="tabs__features__title">Tabs with soft transitioning effect.
                         </p>
-                        <p class="tabs__features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                        penatibus et magnis dis parturient montes. 
-                        <br>
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>bibendum laoreet.
-                        </p>
+                        <p class="tabs__features__text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span>
+                            <span>bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra</span>
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                            <span>penatibus et magnis dis parturient montes. </span>
+                            <br>
+                            <br>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span> bibendum laoreet.
+                            </p>
                         <a class="download" href="#">Download</a>
                     </div>
                     <img class="tabs__features__img" src="./img/tabs.png" alt="">
@@ -101,14 +108,14 @@
                     <div class="tabs__features">
                         <p class="tabs__features__title">Tabs with soft transitioning effect.
                         </p>
-                        <p class="tabs__features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                        penatibus et magnis dis parturient montes. 
-                        <br>
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>bibendum laoreet.
-                        </p>
+                        <p class="tabs__features__text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span>
+                            <span>bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra</span>
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                            <span>penatibus et magnis dis parturient montes. </span>
+                            <br>
+                            <br>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span> bibendum laoreet.
+                            </p>
                         <a class="download" href="#">Download</a>
                     </div>
                     <img class="tabs__features__img" src="./img/tab2.jpg" alt="">
@@ -117,14 +124,14 @@
                     <div class="tabs__features">
                         <p class="tabs__features__title">Tabs with soft transitioning effect.
                         </p>
-                        <p class="tabs__features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra<br>
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                        penatibus et magnis dis parturient montes. 
-                        <br>
-                        <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod<br>bibendum laoreet.
-                        </p>
+                        <p class="tabs__features__text"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span>
+                            <span>bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra</span>
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                            <span>penatibus et magnis dis parturient montes. </span>
+                            <br>
+                            <br>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span> bibendum laoreet.
+                            </p>
                         <a class="download" href="#">Download</a>
                     </div>
                     <img class="tabs__features__img" src="./img/tab3.jpg" alt="">
@@ -141,18 +148,18 @@
                 </div> 
                <div class="awesome__content">
                     <div class="awesome__reasons">
-                        <img src="img/icon1.svg" alt="icon1">
+                        <img class="awesome__reasons__icon" src="img/icon1.svg" alt="icon1">
                         <h4>Thoughtful Design</h4>
                         <p class="awesome__reasons__text">Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                     </div>
                     <div class="awesome__reasons">
-                        <img src="img/icon2.svg" alt="icon1">
+                        <img class="awesome__reasons__icon" src="img/icon2.svg" alt="icon2">
                         <h4>Thoughtful Design</h4>
                         <p class="awesome__reasons__text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
                          </div>
                     <div class="awesome__reasons">
-                        <img src="img/icon3.svg" alt="icon1">
+                        <img class="awesome__reasons__icon" src="img/icon3.svg" alt="icon3">
                         <h4>Thoughtful Design</h4>
                         <p class="awesome__reasons__text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing<br> elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.</p>
@@ -222,9 +229,7 @@
                             quo suscipit.
                         </p>
                         <div class="customers__item__people">
-                            <div class="customers__people__photo">
-                                <img src="img/photo1.png" alt="photo1">
-                            </div>
+                                <img class="customers__people__photo" src="img/photo1.png" alt="photo1">
                             <div class="customers__people__who">
                                 <h4>Davis Rhiel Madsen</h4>
                                 <p>Manager</p>
@@ -239,9 +244,7 @@
                             quo suscipit.
                         </p>
                         <div class="customers__item__people">
-                            <div class="customers__people__photo">
-                                <img src="img/photo2.png" alt="photo1">
-                            </div>
+                                <img class="customers__people__photo" src="img/photo2.png" alt="photo1">
                             <div class="customers__people__who">
                                 <h4>Jaydon Rosser</h4>
                                 <p>Manager</p>
@@ -256,9 +259,7 @@
                             quo suscipit.
                         </p>
                         <div class="customers__item__people">
-                            <div class="customers__people__photo">
-                                <img src="img/photo3.png" alt="photo1">
-                            </div>
+                                <img class="customers__people__photo" src="img/photo3.png" alt="photo1">
                             <div class="customers__people__who">
                                 <h4>Cooper Dorwart</h4>
                                 <p>Manager</p>
@@ -270,12 +271,14 @@
         </section>
 
         <section class="banner">
+            <div class="container">
                 <div class="heading heading_white">
                     <h2 class="heading__banner">STYLISH AXURE DESIGN</h2>
                     <hr class="heading__line">
                     <p class="heading__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
                 </div>
                 <a class="download download_banner" href="#">Download</a>
+            </div>
         </section>
 
         <section class="contact" id="contact">
